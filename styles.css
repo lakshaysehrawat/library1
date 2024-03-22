@@ -1,0 +1,66 @@
+
+        body {
+            background: url(background-image.png);
+            font-family: Arial, sans-serif;
+
+        }
+        h1{
+            font-size: 36px; /* Adjust the font size as needed */
+            color: #fff; /* Text color */
+            -webkit-text-stroke: 2px #000; /* Outline color and width for webkit browsers */
+            /* text-stroke: 2px #000; Outline color and width for other browsers */
+            
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px #888888;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        table, tr, td {
+            border-collapse: collapse;
+            border: 1px solid #ddd;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="phone"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color:#735D42;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+    

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BOOK ENTRY</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div align="center">
+        <span><h1>Book Registration</h1></span>
+    </div>
+    <form action="books.php" method="post">
+        <table>
+            <tr>
+                <td><label for="book_id">Enter Book ID:</label></td>
+                <td><input type="number" name="book_id" id="book_id" required></td>
+            </tr>
+            <tr>
+                <td><label for="title">Enter Book Title:</label></td>
+                <td><input type="text" name="title" id="title" required></td>
+            </tr>
+            <tr>
+                <td><label for="author_id">Enter Author ID:</label></td>
+                <td><input type="number" name="author_id" id="author_id" required></td>
+            </tr>
+            <tr>
+                <td><label for="isbn">ISBN:</label></td>
+                <td><input type="text" name="isbn" id="isbn" required></td>
+            </tr>
+            <tr>
+                <td><label for="availability">Enter Availability:</label></td>
+                <td><input type="number" name="availability" id="availability" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" name="save" value="Submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

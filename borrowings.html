@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BORROWERS ENTRY</title>
+</head>
+<body>
+    <div align="center">
+        <span>
+            <h1>Borrower Registration</h1>
+        </span>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </div>
+    <form action="borrowings.php" method="post">
+        <table>
+            <tr>
+                <td><label for="borrowing_id">Enter Borrowing ID</label></td>
+                <td><input type="text" name="borrowing_id" id="borrowing_id"></td>
+            </tr>
+            <tr>
+                <td><label for="member_id">Enter Member ID</label></td>
+                <td><input type="text" name="member_id" id="member_id"></td>
+            </tr>
+            <tr>
+                <td><label for="book_id">Enter Book ID</label></td>
+                <td><input type="text" name="book_id" id="book_id"></td>
+            </tr>
+            <tr>
+                <td><label for="borrow_date">Enter Borrow Date</label></td>
+                <td><input type="date" name="borrow_date" id="borrow_date"></td>
+            </tr>
+            <tr>
+                <td><label for="return_date">Enter Return Date</label></td>
+                <td><input type="date" name="return_date" id="return_date"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" name="save" value="Submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

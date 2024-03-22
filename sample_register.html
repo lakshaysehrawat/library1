@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>A Sample Tutorial for Database Connection</title>
+    <style>
+        body {
+            background-color: #32e692;
+            font-family: Arial, sans-serif;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px #888888;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        table, tr, td {
+            border-collapse: collapse;
+            border: 1px solid #ddd;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="phone"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #32e692;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div align="center">
+        <h1>Bank Registration form</h1>
+    </div>
+    <form action="details_entry.php" method="post">
+        <table>
+            <tr>
+                <td><label for="first_name">Enter First Name</label></td>
+                <td><input type="text" name="first_name" id="first_name"></td>
+            </tr>
+            <tr>
+                <td><label for="last_name">Enter Last Name</label></td>
+                <td><input type="text" name="last_name" id="last_name"></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date Of Birth</label></td>
+                <td><input type="text" name="dob" id="dob"></td>
+            </tr>
+            <tr>
+                <td><label>address</label></td>
+                <td><input type="text" name="address" id="address"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Enter Email</label></td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Enter Phone</label></td>
+                <td><input type="phone" name="phone" id="phone"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" name="save" value="Submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
